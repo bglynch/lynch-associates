@@ -1,0 +1,13 @@
+.some {
+    min-height: 2000px;
+}
+main{
+    padding-top:70px
+}
+
+#Logo{
+    transition: all 0.3s;
+  }
+  
+  .largeLogo{width: 60px;}
+  .smallLogo{width: 30px;}
