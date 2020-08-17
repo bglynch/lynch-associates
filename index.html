@@ -47,9 +47,9 @@
               id="hero-text">Civil</span></h1>
           <!-- <h2>We are team of talanted engineers making websites with Bootstrap</h2> -->
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+        <!-- <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -251,11 +251,15 @@
         Logo.style.width = '180px';
       }
     }
+    url = "/"
+    if(window.location.href == "https://bglynch.github.io/lynch-associates/"){
+      url = "" 
+    }
 
-    let photos = ["/assets/naomh-aban.jpg", "/assets/hero.jpg", "/assets/windmill.jpg"]
+    let photos = ["assets/naomh-aban.jpg", "assets/hero.jpg", "assets/windmill.jpg"]
     let photo = photos[Math.floor(Math.random() * photos.length)];
 
-    ChangeBackgroungImageOfTab("hero", photo)
+    ChangeBackgroungImageOfTab("hero", url+photo)
   </script>
 </body>
 
