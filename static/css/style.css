@@ -1,10 +1,8 @@
 html { font-size: 62.5%; }
-.some {
+/* .some {
     min-height: 52vh;
-}
-main{
-    padding-top:150px
-}
+} */
+
 header{
     background-color: aliceblue;
 }
