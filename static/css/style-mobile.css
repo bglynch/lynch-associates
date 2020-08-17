@@ -1,4 +1,11 @@
 @media (max-width: 575.98px) { 
     html { font-size: 39.5%; }
+    .sm-hide{display: none;}
+    .clients {
+        height: auto;
+    }
+    .clients img {
+        max-width: 70%;
 
+    }
  }

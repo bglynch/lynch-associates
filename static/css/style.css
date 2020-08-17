@@ -24,6 +24,7 @@ header img{
     background: #37517e;
     background-image: url('/assets/hero.jpg');
     background-size: cover;
+    background-position-x: center;
 }
 
 .clients {
